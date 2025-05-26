@@ -1,4 +1,4 @@
-# Question:Explain the Primary Key and Foreign Key concepts in PostgreSQL
+# 01 Question:Explain the Primary Key and Foreign Key concepts in PostgreSQL
 
 
 ## Primary Key
@@ -50,7 +50,7 @@ CREATE TABLE post (
 ```
 
 
-# Question:Explain the purpose of the WHERE clause in a SELECT statement.
+# 02 Question:Explain the purpose of the WHERE clause in a SELECT statement.
 #### WHERE clause হল একটি SELECT স্টেটমেন্টের অংশ, যা ডেটাবেস থেকে শুধু নির্দিষ্ট  Condition  পূরণ করা rows  select  korar জন্য ব্যবহৃত হয়
 
 
@@ -73,7 +73,7 @@ CREATE TABLE post (
 ##### Null checking: IS NULL, IS NOT NULL
 
 
-# Question: How can you calculate aggregate functions like COUNT(), SUM(), and AVG() in PostgreSQL?
+# 03 Question: How can you calculate aggregate functions like COUNT(), SUM(), and AVG() in PostgreSQL?
 
 Aggregate মানে হচ্ছে — পুরো row ধরে হিসেব করা যেমন: কতজন আছে, মোট যোগফল কত, গড় কত ইত্যাদি।
 
@@ -97,7 +97,7 @@ SELECT SUM(price) FROM orders;
 SELECT AVG(price) FROM orders;
  ```
 
-# Question: What is PostgreSQL?
+# 04 Question: What is PostgreSQL?
 PostgreSQL হলো একটি ওপেন সোর্স রিলেশনাল, শক্তিশালী, স্কেলেবল ডেটাবেস ম্যানেজমেন্ট সিস্টেম (RDBMS), যা data store করার জন্য ব্যবহৃত হয়। এইটি ছোট প্রজেক্ট থেকে শুরু করে এন্টারপ্রাইজ লেভেল পর্যন্ত ব্যবহৃত হয়
 
 # PostgreSQL-এর বৈশিষ্ট্য
@@ -105,7 +105,7 @@ PostgreSQL হলো একটি ওপেন সোর্স রিলেশ�
 ##### ACID কমপ্লায়েন্ট: Atomicity, Consistency, Isolation, Durability — এই চারটি গুণমান পূরণ করে।
 ##### SQL ও JSON — উভয় ধরণের ডেটা ফর্ম্যাটের সাথে কাজ করতে পারে।
 
-# Question: What is the purpose of a database schema in PostgreSQL?
+# 05 Question: What is the purpose of a database schema in PostgreSQL?
 
 ##### schema একটি ডেটাবেসের ভেতরে অনেকগুলো “folder”-এর মতো কাজ করে , যেখানে আমরা বিভিন্ন ধরনের ডেটা structure আলাদাভাবে সাজিয়ে রাখতে পারি।
 
