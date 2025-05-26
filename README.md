@@ -24,7 +24,7 @@ CREATE TABLE students (
 
 **Foreign Key** হলো এমন একটি কলাম  যা অন্য টেবিলের Primary Key-এর সাথে সম্পর্ক তৈরি করে।
 
-Why Foreign Keys?
+### Why Foreign Keys?
 
 একাধিক টেবিলের মধ্যে রিলেশন তৈরি করা
 
