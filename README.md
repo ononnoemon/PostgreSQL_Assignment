@@ -3,7 +3,7 @@
 
 ## Primary Key
 
-**Primary Key** হলো একটি বা একাধিক কলামের সমন্বয় যা প্রতিটি রেকর্ডকে **unique** এবং **NOT NULL** করে।
+**Primary Key** হলো একটি বা একাধিক কলামের সমন্বয় যা প্রতিটি Row **unique** এবং **NOT NULL** করে।
 
 ### Why Primary Key?
 
@@ -71,4 +71,24 @@ CREATE TABLE post (
 
 
 ##### Null checking: IS NULL, IS NOT NULL
+
+
+# How can you calculate aggregate functions like COUNT(), SUM(), and AVG() in PostgreSQL?
+
+Aggregate মানে হচ্ছে — পুরো row ধরে হিসেব করা যেমন: কতজন আছে, মোট যোগফল কত, গড় কত ইত্যাদি।
+
+### COUNT() — কতগুলো রেকর্ড আছে?
+
+```sqlSELECT COUNT(*) FROM orders; ``` 
+
+
+### SUM() — মোট কত?
+
+```sql SELECT SUM(price) FROM orders; ```
+
+
+
+### AVG() — গড় কত?
+```sql SELECT AVG(price) FROM orders; ```
+
 
