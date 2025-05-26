@@ -77,7 +77,7 @@ CREATE TABLE post (
 
 Aggregate মানে হচ্ছে — পুরো row ধরে হিসেব করা যেমন: কতজন আছে, মোট যোগফল কত, গড় কত ইত্যাদি।
 
-### COUNT() — কতগুলো রেকর্ড আছে?
+### COUNT() — কতগুলো Row আছে?
 
 ```sql 
 SELECT COUNT(*) FROM orders;
@@ -97,4 +97,11 @@ SELECT SUM(price) FROM orders;
 SELECT AVG(price) FROM orders;
  ```
 
+# What is PostgreSQL?
+PostgreSQL হলো একটি ওপেন সোর্স রিলেশনাল, শক্তিশালী, স্কেলেবল ডেটাবেস ম্যানেজমেন্ট সিস্টেম (RDBMS), যা data store করার জন্য ব্যবহৃত হয়। এইটি ছোট প্রজেক্ট থেকে শুরু করে এন্টারপ্রাইজ লেভেল পর্যন্ত ব্যবহৃত হয়
+
+# PostgreSQL-এর বৈশিষ্ট্য
+###  অবজেক্ট-রিলেশনাল: রিলেশনাল ডেটাবেসের পাশাপাশি অবজেক্ট ওরিয়েন্টেড ফিচারও সাপোর্ট করে
+### ACID কমপ্লায়েন্ট: Atomicity, Consistency, Isolation, Durability — এই চারটি গুণমান পূরণ করে।
+### SQL ও JSON — উভয় ধরণের ডেটা ফর্ম্যাটের সাথে কাজ করতে পারে।
 
