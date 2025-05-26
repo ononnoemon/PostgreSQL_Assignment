@@ -48,3 +48,27 @@ CREATE TABLE post (
     FOREIGN KEY (course_id) REFERENCES courses(course_id)
 );
 ```
+
+
+# Question:Explain the purpose of the WHERE clause in a SELECT statement.
+#### WHERE clause হল একটি SELECT স্টেটমেন্টের অংশ, যা ডেটাবেস থেকে শুধু নির্দিষ্ট  Condition  পূরণ করা rows  select  korar জন্য ব্যবহৃত হয়
+
+
+ ## Common Uses of WHERE:
+##### Comparison: =, !=, >, <, >=, <=
+
+
+##### Logical operators: AND, OR, NOT
+
+
+##### Pattern matching: LIKE, ILIKE
+
+
+##### Range checking: BETWEEN/AND
+
+
+##### Set membership: IN
+
+
+##### Null checking: IS NULL, IS NOT NULL
+
