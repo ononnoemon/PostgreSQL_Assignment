@@ -79,16 +79,22 @@ Aggregate মানে হচ্ছে — পুরো row ধরে হিস�
 
 ### COUNT() — কতগুলো রেকর্ড আছে?
 
-```sql SELECT COUNT(*) FROM orders; ``` 
+```sql 
+SELECT COUNT(*) FROM orders;
+ ``` 
 
 
 ### SUM() — মোট কত?
 
-```sql SELECT SUM(price) FROM orders; ```
+```sql 
+SELECT SUM(price) FROM orders;
+```
 
 
 
 ### AVG() — গড় কত?
-```sql SELECT AVG(price) FROM orders; ```
+```sql 
+SELECT AVG(price) FROM orders;
+ ```
 
 
